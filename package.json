@@ -1,0 +1,45 @@
+{
+  "name": "daily-clock-in",
+  "version": "1.0.0",
+  "description": "Nothing important here...",
+  "license": "WTFPL",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douglasduteil/daily-clock-in.git"
+  },
+  "author": {
+    "name": "Douglas Duteil",
+    "email": "douglasduteil@gmail.com"
+  },
+  "bin": {
+    "daily-clock-in": "cli.js"
+  },
+  "engines": {
+    "node": "^4"
+  },
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint index.js"
+  },
+  "main": "index.js",
+  "keywords": [
+    "hack",
+    "cheating",
+    "github"
+  ],
+  "bugs": {
+    "url": "https://github.com/douglasduteil/daily-clock-in/issues"
+  },
+  "homepage": "https://github.com/douglasduteil/daily-clock-in#readme",
+  "devDependencies": {
+    "eslint": "^1.6.0",
+    "eslint-config-standard": "^4.4.0",
+    "eslint-plugin-standard": "^1.3.1"
+  },
+  "dependencies": {
+    "lodash.assign": "^3.2.0",
+    "lodash.template": "^3.6.2",
+    "meow": "^3.4.2",
+    "moment": "^2.10.6"
+  }
+}
