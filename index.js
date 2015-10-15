@@ -61,7 +61,7 @@ function dailyClockIn (options) {
   function commitAndLogAllDays (dates) {
     if (options.simulating) {
       console.log('The following dates are going to be recorded in the timesheet : ')
-      console.dir(dates, {colors: true})
+      console.dir(dates.map(String), {colors: true})
       return Promise.resolve()
     }
     return dates.reduce(function chainPromises (prev, date) {
